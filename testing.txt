@@ -1,0 +1,4 @@
+{"action":"sendMessagePrivate","token":{"accesstoken":"7425857144450326523"},"payload":{"receiver_id": "1001","chat_id":"1","content_type": "text", "description":"hello bro how y doing??"}}   
+    
+{"action":"sendGroupMessage","token":{"accesstoken":"7425857144450326523"},"payload":{"chat_id":"7425908450292539387","content_type": "text", "description":"test??"}}   
+    

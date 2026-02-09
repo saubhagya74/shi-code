@@ -1,0 +1,23 @@
+[package]
+name = "whatsapp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = "0.5.3"
+aws-config = { version = "1.8.13", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.122.0"
+axum = { version = "0.8.8", features = ["ws"] }
+chrono = { version = "0.4.43", features = ["serde"] }
+dashmap = { version = "6.1.0", features = ["serde"] }
+dotenv = "0.15.0"
+futures-util = "0.3.31"
+jsonwebtoken = { version = "10.2.0", features = ["aws_lc_rs"] }
+parking_lot = { version = "0.12.5", features = ["serde"] }
+rs-snowflake = "0.6.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = { version = "1.0.149", features = ["raw_value"] }
+serde_with = "3.16.1"
+sqlx = { version = "0.8", features = [ "runtime-tokio", "tls-rustls-ring-native-roots", "postgres","chrono" ] }
+tokio = { version = "1.49.0", features = ["full"] }
+tower-http = { version = "0.6.8", features = ["cors"] }
